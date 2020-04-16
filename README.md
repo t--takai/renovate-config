@@ -1,6 +1,6 @@
 # renovate-config
 
-Standard renovate config for potato4d.
+Standard renovate config for t--takai.
 
 ## Usage
 
@@ -8,7 +8,7 @@ Enable Renovate in your repo and just `extends` in `renovate.json`.
 
 ```json
 {
-  "extends": ["@potato4d"]
+  "extends": ["@t--takai"]
 }
 ```
 

@@ -1,8 +1,8 @@
 {
-  "name": "@potato4d/renovate-config",
+  "name": "@t--takai/renovate-config",
   "version": "0.1.0",
-  "repository": "https://github.com/potato4d/renovate-config",
-  "author": "Takuma HANATANI <mail@potato4d.me>",
+  "repository": "https://github.com/t--takai/renovate-config",
+  "author": "Tomonari Takai",
   "license": "MIT",
   "scripts": {
     "test": "renovate-config-validator"
@@ -13,7 +13,7 @@
         "config:base"
       ],
       "assignees": [
-        "potato4d"
+        "t--takai"
       ],
       "patch": {
         "groupName": "all dependencies"
