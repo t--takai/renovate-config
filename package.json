@@ -1,6 +1,7 @@
 {
   "name": "@t--takai/renovate-config",
   "version": "0.1.0",
+  "description": "t--takai presets for Renovate",
   "repository": "https://github.com/t--takai/renovate-config",
   "author": "Tomonari Takai",
   "license": "MIT",
@@ -9,14 +10,28 @@
   },
   "renovate-config": {
     "default": {
+      "description": "Default config for t--takai repository",
       "extends": [
-        "config:base"
+        "config:base",
+        "schedule:earlyMondays",
+        ":label(renovate)",
+        ":automergePatch",
+        ":automergeMinor",
+        ":automergePr",
+        ":assignee(t--takai)",
+        ":timezone(Asia/Tokyo)"
       ],
-      "assignees": [
-        "t--takai"
-      ],
-      "patch": {
-        "groupName": "all dependencies"
+      "lockFileMaintenance": {
+        "enabled": true,
+        "automerge": true,
+        "extends": [
+          "schedule:monthly",
+          ":assignee(t--takai)",
+          ":automergePr"
+        ]
+      },
+      "major": {
+        "automerge": false
       }
     }
   },
