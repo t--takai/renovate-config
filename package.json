@@ -5,6 +5,7 @@
   "repository": "https://github.com/t--takai/renovate-config",
   "author": "Tomonari Takai",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "test": "renovate-config-validator"
   },
