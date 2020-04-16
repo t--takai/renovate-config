@@ -1,5 +1,7 @@
 # renovate-config
 
+![Node CI](https://github.com/t--takai/renovate-config/workflows/Node%20CI/badge.svg)
+
 Standard renovate config for t--takai.
 
 ## Usage
