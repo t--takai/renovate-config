@@ -1,6 +1,6 @@
 {
   "name": "@t--takai/renovate-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "t--takai presets for Renovate",
   "repository": "https://github.com/t--takai/renovate-config",
   "author": "Tomonari Takai",
