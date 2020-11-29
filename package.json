@@ -14,7 +14,7 @@
       "description": "Default config for t--takai repository",
       "extends": [
         "config:base",
-        "schedule:earlyMondays",
+        "schedule:monthly",
         ":label(renovate)",
         ":automergePatch",
         ":automergeMinor",
@@ -37,6 +37,6 @@
     }
   },
   "devDependencies": {
-    "renovate": "19.202.3"
+    "renovate": "23"
   }
 }
