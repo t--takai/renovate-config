@@ -14,7 +14,7 @@
       "description": "Default config for t--takai repository",
       "extends": [
         "config:base",
-        "schedule:earlyMondays",
+        "schedule:monthly",
         ":label(renovate)",
         ":automergePatch",
         ":automergeMinor",
